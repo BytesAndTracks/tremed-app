@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const errorMessage = document.getElementById('error-message');
     
     // Coloque aqui a URL base da sua API no PythonAnywhere
-    const API_URL = 'http://newtremed.pythonanywhere.com';
+    const API_URL = window.location.origin;
 
     loginForm.addEventListener('submit', async (event) => {
         event.preventDefault(); // Impede o recarregamento da página

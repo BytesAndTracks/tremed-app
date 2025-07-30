@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     // --- Configuração e Variáveis ---
-    const API_URL = 'http://newtremed.pythonanywhere.com';
+    const API_URL = window.location.origin;
     const token = localStorage.getItem('accessToken');
     
     // Elementos da Página
