@@ -30,3 +30,39 @@ body {
     background-color: #0b5ed7;
     border-color: #0a58ca;
 }
+
+/* Estilos para a página de consulta */
+.table-responsive {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+}
+
+thead.table-dark th {
+    background-color: #0d6efd; /* Azul para o cabeçalho da tabela */
+    border-color: #0d6efd;
+}
+
+#logout-button {
+    font-weight: bold;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Estilo para links de catálogo */
+.catalog-link {
+    display: inline-block;
+    padding: 0.3rem 0.6rem;
+    background-color: #dc3545; /* Vermelho para o link do catálogo */
+    color: white;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.catalog-link:hover {
+    background-color: #b02a37;
+    color: white;
+}
